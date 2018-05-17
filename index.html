@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Coin Game</title>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="left_side">
+		<div class="left_top active">
+				<img src="img/player.png" alt="">
+				<div class="left_top_info">
+					<div class="choice">
+						<p>Computers choice is: <span class="player_choice_label"></span></p>
+					</div>
+					<div class="score score_1"><p>Score: <span class="number_1">0</span></p></div>
+					<button class="heads">Heads</button>
+					<button class="tails">Tails</button>
+			  	</div>
+		</div>
+			<div class="left_bottom active">
+				<img src="img/pc.png" alt="">
+				<div class="left_bottom_right">
+					<p>Computers choice is: <span class="computer_choice_label"></span></p>
+					<div class="score score_2"><p>Score: <span class="number_2">0</span></p></div>
+					<button class="rndBtn">Random</button>
+				</div>
+			</div>
+		</section>
+		<section class="right_side active">
+			<p class="winner">WINNER!</p>
+			<img class ="coin" src="img/0.png">
+			<button class="throw">Throw</button>
+			<button class="new_game">New Game</button>
+		</section>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
